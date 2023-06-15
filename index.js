@@ -22,25 +22,6 @@ switch (month) {
 
 }
 
-//    !!!ისმის კითხვა :)
-//  რატომ არ მუშაობს ქვე მდგომი ლოგიკა? 
-switch (month) {
-    case (month === "march" || "april" || "may"):
-        console.log(spring)
-        break;
-    case (month === "june" || "july" || "august"):
-        console.log(spring)
-        break;
-    case (month === "september" || "october" || "november"):
-        console.log(spring)
-        break;
-    case (month === "december" || "january" || "february"):
-        console.log(spring)
-        break;
-    default:
-        console.log("iput correct month, please.")
-        break;
-}
 
 
     // #2
@@ -51,13 +32,13 @@ switch (month) {
 //ამ სამიდან მაქსიმუმი. ანუ ამან უნდა დაგიკონსოლოს, მაქსიმუმია b ანუ 15 
 //თუ შეცვლით რიცხვებს მაშინაც სწორად უნდა იმუშაოს.
 
-let a=1;
-let b=56;
-let c=19;
+let a=77;
+let b=4;
+let c=77;
 
-if(a>b && a>c){
+if(a>=b && a>=c){
     console.log(a)
-}else if(b>a && b>c){
+}else if(b>=a && b>=c){
     console.log(b)
 }else{
     console.log(c)
